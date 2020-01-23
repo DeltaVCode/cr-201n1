@@ -1,0 +1,23 @@
+
+h1 {
+    background-color: bisque;
+    color:coral;
+}
+ nav {
+    background-color: blanchedalmond;
+    height: 200px;
+}  
+
+
+
+section p.more-content {
+    background-color: #FF0000;
+  }
+  
+  .more-content {
+    background-color: #0000FF;
+  }
+  
+  #something-else {
+    border: 5px solid #00FF00;
+  }

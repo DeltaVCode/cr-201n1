@@ -1,0 +1,39 @@
+* {
+ outline: 1px dashed;
+
+}
+
+body{
+    background-color: azure;
+    font-size: 20px;  
+    /* 1 em */
+}
+
+h1{
+    text-align: center;
+    color: #5c5829;
+    font-size: 2em;
+}
+nav{
+    text-align: center;
+    margin-top: 25px;
+}
+
+nav ul {
+    border-top: 2px solid violet;
+    border-bottom: 2px solid violet;
+}
+
+nav li {
+    display: inline;
+    margin: 25px;
+}
+
+.price {
+    position: fixed;
+    
+}
+
+img {
+    display: block;
+}

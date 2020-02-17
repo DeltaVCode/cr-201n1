@@ -1,0 +1,51 @@
+body {
+    background-color: #EEEEEE;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  a {
+    padding: 12px;
+    background-color: #222;
+    color: #eee;
+    margin: 0 auto;
+  }
+  
+  .left {
+    position: absolute;
+    left: 20px;
+  }
+  
+  .middle {
+    position: absolute;
+    left: 48%;
+  }
+  
+  .right {
+    position: absolute;
+    right: 20px;
+  }
+  
+  div {
+    margin: 0 auto;
+    height: 42px;
+  }
+  
+  main {
+    margin: 20px;
+    background-color: lightpink;
+    display: inline-block;
+    padding-bottom: 50px;
+  }
+  
+  p {
+    max-width: 45%;
+    display: inline-block;
+  }
+  
+  img {
+    float: right;
+    margin-right: 20px;
+  }

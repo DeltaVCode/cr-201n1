@@ -1,3 +1,4 @@
+```js
 class App extends Component {
 state = {
   incidents: [],
@@ -20,3 +21,4 @@ render() {
 }
 }
 export default App;
+```

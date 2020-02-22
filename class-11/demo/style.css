@@ -1,0 +1,26 @@
+h1 {
+  font-size: 60px;
+  color: navy;
+  background-color: rgb(233, 145, 13);
+}
+h2 {
+  font-size: 30px;
+  color: navy;
+  text-align: center;
+  background-color: rgb(230, 69, 6);
+}
+img {
+  width: 400px;
+  padding:30px;
+  height: 300px;
+}
+
+body{
+  width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+footer p {
+  font-size: 24px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Pizza!</title>
+</head>
+<body>
+ 
+  <marquee><h2>DisClaimer: All pizza is good.</h2></marquee>
+  <header>
+    <h1>Which Pizza is the better Pizza?</h1>
+
+
+    <form id="nameForm">
+      <label for="name">What is your name?</label>
+      <input id="name" name="name"  />
+      <input type="submit" />
+    </form>
+
+
+
+
+  </header>
+  <main>
+    <img id="1" src="images/detroitPizza.jpeg" />
+    <img id="2" src="images/newYorkPizza.jpeg" />
+  </main>
+  <footer>
+    
+     <p>Pizza results go here!!!</p>
+     <canvas id="resultsChart" class="canvasChart"></canvas>
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script src="app.js"></script>
+  
+
+</body>
+</html>

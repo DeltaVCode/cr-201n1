@@ -1,0 +1,63 @@
+h1 {
+  font-size: 60px;
+  color: navy;
+  background-color: rgb(233, 145, 13);
+}
+h2 {
+  font-size: 30px;
+  color: navy;
+  text-align: center;
+  background-color: rgb(230, 69, 6);
+}
+img {
+  width: 400px;
+  padding:30px;
+  height: 300px;
+  transition: 3s;
+  border: 25px solid white;
+  position: relative;
+  top: -50;
+}
+
+img:hover {
+  border: 25px dashed seagreen;
+}
+
+
+
+
+body{
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+footer p {
+  font-size: 24px;
+}
+
+.canvasChart {
+  display: inline-block;
+}
+
+
+
+.red-border {
+
+  border: 10px solid plum;
+}
+
+/* 
+Javascript to run the classlist in the console.
+
+var img = document.getElementById('1');
+img.addEventListener('click', function(){
+
+setTimeout(function(){
+
+img.classList.toggle('red-border');
+
+}, 500);
+
+
+}); */
